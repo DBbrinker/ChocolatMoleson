@@ -1,8 +1,1 @@
-# HELLO PAULINE !!!
-
-I MADE IT WORK :)
-
-#  MOUHAHAHAHA !
-<3
-
-# Test
+Le read me est uniquement pour le suivi des codeur / créateur du site web !
