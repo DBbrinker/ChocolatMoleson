@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&family=Fira+Mono&display=swap" rel="stylesheet">
 
     <!-- Lien vers ton fichier CSS -->
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 <body>
     <h1>Hello Pauline</h1>
