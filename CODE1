@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- index.html -->
+<h1>Bienvenue chez Chocolat Moléson</h1>
+<p>Découvrez nos créations artisanales au chocolat suisse.</p>
 <head>
     <meta charset="UTF-8">
     <title>Hello Pauline</title>
@@ -10,3 +13,8 @@
     <script src="script.js"></script>
 </body>
 </html>
+/* style.css */
+h1 {
+  color: #3c2f2f;
+  font-family: 'Georgia', serif;
+}
