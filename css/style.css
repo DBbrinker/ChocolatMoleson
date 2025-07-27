@@ -68,3 +68,9 @@ li {
   height: auto;
   margin-top: 20px;
 }
+
+.barred-text {
+  border-left: 4px solid #4A90E2; /* couleur et épaisseur de la ligne */
+  padding-left: 1rem;             /* espace entre la ligne et le texte */
+  margin: 1rem 0;
+}
