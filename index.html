@@ -11,20 +11,6 @@
   <!-- Titre principal -->
   <h1>Chocolat Moléson</h1>
 
-<header>
-  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-
-  <nav class="slide-menu" id="slideMenu">
-    <ul>
-      <li><a href="#">Accueil</a></li>
-      <li><a href="#">À propos</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-
-
 
   
   <!-- Sous-titre -->
@@ -62,7 +48,29 @@
     <li>Respect des standards de qualité suisse</li>
   </ul>
 
+  <header>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+    <nav class="slide-menu" id="slideMenu">
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+ 
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("slideMenu");
+      menu.classList.toggle("open");
+    }
+  </script>
+  
   <script src="js/script.js"></script>
+
 </body>
 
 </div>
