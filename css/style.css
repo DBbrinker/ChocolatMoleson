@@ -79,12 +79,14 @@ li {
 .line-left::before {
   content: "";
   position: absolute;
+  top: 0;
+  left: 0;
   height: 100%;
   width: 12px;
   background-color: #0A5DC2;
-  border-radius: 6px; /* arrondir la ligne si tu veux */
+  border-radius: 6px;
+  z-index: -1; /* optionnel, pour envoyer la ligne derrière le texte */
 }
-
 
 .line-right {
   position: relative;
@@ -96,8 +98,11 @@ li {
 .line-right::after {
   content: "";
   position: absolute;
+  top: 0;
+  right: 0;
   height: 100%;
   width: 12px;
   background-color: #0A5DC2;
-  border-radius: 6px; /* arrondir la ligne si tu veux */
+  border-radius: 6px;
+  z-index: -1; /* optionnel */
 }
