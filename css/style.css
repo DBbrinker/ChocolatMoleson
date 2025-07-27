@@ -71,7 +71,7 @@ li {
 
 .line-left {
   position: relative;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
   margin: 0.5rem;
   text-align: left;
 }
@@ -90,7 +90,7 @@ li {
 
 .line-right {
   position: relative;
-  padding-right: 0.5rem;
+  padding-right: 1rem;
   margin: 0.5rem;
   text-align: right;
 }
@@ -114,16 +114,16 @@ boxbody {
   align-items: center;      /* centre verticalement */
   height: 100vh;            /* hauteur 100% viewport */
   margin: 0;
-  background-color: #f0f0f0;
+  background-color: #0A5DC2;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* La boîte carrée avec texte centré */
 .box1 {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 50px;
   background-color: #0A5DC2;
-  border-radius: 20px; /* bords arrondis */
+  border-radius: 25px; /* bords arrondis */
   color: white;
   display: flex;
   justify-content: center; /* centre horizontalement le texte */
@@ -131,5 +131,5 @@ boxbody {
   font-size: 1.2em;
   text-align: center;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
