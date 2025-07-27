@@ -2,7 +2,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #fefefe;
-  color: #084A9B;
+  color: #042044;
   margin: 0;
   padding: 40px;
   line-height: 1.6;
@@ -74,3 +74,22 @@ li {
   padding-left: 2rem;             /* espace entre la ligne et le texte */
   margin: 1rem 0;
 }
+
+.line-left {
+  position: relative;
+  padding-left: 1.2rem;
+  margin: 1rem 0;
+}
+
+.line-left::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 60%;
+  width: 12px;
+  background-color: #0A5DC2;
+  border-radius: 12px; /* arrondir la ligne si tu veux */
+}
+
