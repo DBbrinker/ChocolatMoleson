@@ -77,7 +77,7 @@ li {
 
 .line-left {
   position: relative;
-  padding-left: 1.2rem;
+  padding-left: 3rem;
   margin: 1rem 0;
 }
 
@@ -85,9 +85,7 @@ li {
   content: "";
   position: absolute;
   left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 60%;
+  height: 100%;
   width: 12px;
   background-color: #0A5DC2;
   border-radius: 12px; /* arrondir la ligne si tu veux */
