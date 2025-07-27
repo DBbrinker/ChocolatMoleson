@@ -71,7 +71,7 @@ li {
 
 .line-left {
   position: relative;
-  padding-left: 3rem;
+  padding-left: 1rem;
   margin: 1rem;
   text-align: left;
 }
@@ -90,7 +90,7 @@ li {
 
 .line-right {
   position: relative;
-  padding-right: 3rem;
+  padding-right: 1rem;
   margin: 1rem;
   text-align: right;
 }
