@@ -72,15 +72,16 @@ li {
 .line-left {
   position: relative;
   padding-left: 3rem;
-  margin: 1rem 0;
+  margin: 1rem;
   text-align: left;
 }
 
 .line-left::before {
   content: "";
   position: absolute;
+  top: 0;
+  bottom: 0;
   left: 0;
-  height: 100%;
   width: 12px;
   background-color: #0A5DC2;
   border-radius: 12px; /* arrondir la ligne si tu veux */
@@ -90,15 +91,16 @@ li {
 .line-right {
   position: relative;
   padding-right: 3rem;
-  margin: 1rem 0;
+  margin: 1rem;
   text-align: right;
 }
 
 .line-right::after {
   content: "";
   position: absolute;
+  top: 0;
+  bottom: 0;
   right: 0;
-  height: 100%;
   width: 12px;
   background-color: #0A5DC2;
   border-radius: 12px; /* arrondir la ligne si tu veux */
