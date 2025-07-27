@@ -109,11 +109,11 @@ li {
 }
 
 .container {
-  height: 100vh; /* pleine hauteur pour centrer verticalement */
+  height: 5rem;
   display: flex;
   justify-content: center; /* centre horizontalement */
   align-items: center;     /* centre verticalement */
-  background-color: #f5f5f5; /* optionnel : fond sympa */
+  /* background-color: #f5f5f5; optionnel : fond sympa */
 }
 
 /* La boîte carrée avec texte centré */
@@ -144,7 +144,7 @@ li {
   background: white;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  width: 5rem;
+  /* width: 5rem; */
 }
 
 .contact-item {
