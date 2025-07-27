@@ -147,7 +147,6 @@ boxbody {
   width: 280px;
 }
 
-/* Contact item */
 .contact-item {
   text-align: center;
   font-size: 1.1rem;
@@ -157,18 +156,12 @@ boxbody {
   padding-right: 20px;
 }
 
-/* Ligne verticale à gauche de chaque item sauf le premier */
-.contact-item:not(:first-child)::before {
-  content: "";
-  position: absolute;
-  left: 10px;
-  top: 0;
-  bottom: 0;
+.separator {
   width: 1.5px;
+  height: 24px;
   background-color: #0A5DC2;
   border-radius: 1px;
 }
-
 
 
 
