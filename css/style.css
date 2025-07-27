@@ -69,16 +69,11 @@ li {
   margin-top: 20px;
 }
 
-.barred-text {
-  border-left: 12px solid #0A5DC2; /* couleur et épaisseur de la ligne */
-  padding-left: 2rem;             /* espace entre la ligne et le texte */
-  margin: 1rem 0;
-}
-
 .line-left {
   position: relative;
   padding-left: 3rem;
   margin: 1rem 0;
+  text-align: left;
 }
 
 .line-left::before {
@@ -91,3 +86,20 @@ li {
   border-radius: 12px; /* arrondir la ligne si tu veux */
 }
 
+
+.line-right {
+  position: relative;
+  padding-right: 3rem;
+  margin: 1rem 0;
+  text-align: right;
+}
+
+.line-right::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 12px;
+  background-color: #0A5DC2;
+  border-radius: 12px; /* arrondir la ligne si tu veux */
+}
