@@ -133,3 +133,42 @@ boxbody {
   padding: 20px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
+
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* texte centré */
+  gap: 0.5rem; /* espace vertical entre éléments */
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 280px;
+}
+
+/* Contact item */
+.contact-item {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #042044;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Ligne verticale à gauche de chaque item sauf le premier */
+.contact-item:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 1.5px;
+  background-color: #0A5DC2;
+  border-radius: 1px;
+}
+
+
+
+
