@@ -91,6 +91,7 @@ li {
   transition: right 0.3s ease-in-out;
   z-index: 1000;
   padding: 2rem 1rem;
+  overflow-x: hidden; /* pour éviter les débordements */
 }
 
 .slide-menu ul {
