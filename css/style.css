@@ -108,13 +108,12 @@ li {
   z-index: -1; /* optionnel */
 }
 
-body {
-  height: 100vh;
-  margin: 0;
+.container {
+  height: 100vh; /* pleine hauteur pour centrer verticalement */
   display: flex;
   justify-content: center; /* centre horizontalement */
   align-items: center;     /* centre verticalement */
-  background-color: #f5f5f5;
+  background-color: #f5f5f5; /* optionnel : fond sympa */
 }
 
 /* La boîte carrée avec texte centré */
