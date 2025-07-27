@@ -83,7 +83,7 @@ li {
 .slide-menu {
   position: fixed;
   top: 0;
-  right: -25rem; /* caché à droite */
+  right: -26rem; /* caché à droite */
   width: 25rem;
   height: 100%;
   background-color: #fff;
