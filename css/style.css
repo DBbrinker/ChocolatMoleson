@@ -168,10 +168,11 @@ li {
       justify-content: space-between;
       padding: 20px;
       gap: 20px; /* espace entre les blocs */
+      flex-wrap: wrap; /* permet le retour à la ligne si nécessaire */
     }
 
     .blocg1 {
-      flex: 1; /* prend une largeur égale */
+      flex: 1 1 45%; /* largeur flexible à 45%, laisse 10% pour l'espace */
       padding: 20px;
       background-color: #f0f0f0;
       border-radius: 10px;
@@ -179,7 +180,7 @@ li {
     }
 
  .blocd1 {
-      flex: 1; /* prend une largeur égale */
+      flex: 1 1 45%; /* largeur flexible à 45%, laisse 10% pour l'espace */
       padding: 20px;
       background-color: #0A5DC2;
       border-radius: 10px;
