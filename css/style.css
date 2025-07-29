@@ -194,7 +194,97 @@ li {
     }
 
 
+.sectionbloc2 {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      gap: 20px; /* espace entre les blocs */
+      flex-wrap: wrap; /* permet le retour à la ligne si nécessaire */
+    }
 
+    .blocg2 {
+      flex: 1 1 45%; /* largeur flexible à 45%, laisse 10% pour l'espace */
+      padding: 20px;
+      background-color: #f0f0f0;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+ .blocd2 {
+      flex: 1 1 45%; /* largeur flexible à 45%, laisse 10% pour l'espace */
+      padding: 20px;
+      background-color: #0A5DC2;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column;
+      }
+    }
+
+
+.sectionbloc3 {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      gap: 20px; /* espace entre les blocs */
+      flex-wrap: wrap; /* permet le retour à la ligne si nécessaire */
+    }
+
+    .blocg3 {
+      flex: 1 1 45%; /* largeur flexible à 45%, laisse 10% pour l'espace */
+      padding: 20px;
+      background-color: #f0f0f0;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+ .blocd3 {
+      flex: 1 1 45%; /* largeur flexible à 45%, laisse 10% pour l'espace */
+      padding: 20px;
+      background-color: #0A5DC2;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column;
+      }
+    }
+
+
+.sectionbloc4 {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      gap: 20px; /* espace entre les blocs */
+      flex-wrap: wrap; /* permet le retour à la ligne si nécessaire */
+    }
+
+    .blocg4 {
+      flex: 1 1 45%; /* largeur flexible à 45%, laisse 10% pour l'espace */
+      padding: 20px;
+      background-color: #f0f0f0;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+ .blocd4 {
+      flex: 1 1 45%; /* largeur flexible à 45%, laisse 10% pour l'espace */
+      padding: 20px;
+      background-color: #0A5DC2;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column;
+      }
+    }
 
 .container {
   height: 5rem;
