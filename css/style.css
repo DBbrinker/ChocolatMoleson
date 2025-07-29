@@ -124,6 +124,12 @@ li {
   margin-top: 20px;
 }
 
+image-molesonnuit {
+  width: 300px;
+  height: auto;
+  margin-top: 20px;
+}
+
 .line-left {
   position: relative;
   padding-left: 1.5rem;
