@@ -163,6 +163,38 @@ li {
   z-index: -1; /* optionnel */
 }
 
+.sectionbloc1 {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      gap: 20px; /* espace entre les blocs */
+    }
+
+    .blocg1 {
+      flex: 1; /* prend une largeur égale */
+      padding: 20px;
+      background-color: #f0f0f0;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+ .blocd1 {
+      flex: 1; /* prend une largeur égale */
+      padding: 20px;
+      background-color: #0A5DC2;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column;
+      }
+    }
+
+
+
+
 .container {
   height: 5rem;
   display: flex;
