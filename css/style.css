@@ -125,7 +125,7 @@ li {
 }
 
 .image-molesonnuit {
-  width: 150px;
+  width: 400px;
   height: auto;
   margin-top: 20px;
 }
@@ -188,7 +188,7 @@ li {
  .blocd1 {
       flex: 1 1 45%; /* largeur flexible à 45%, laisse 10% pour l'espace */
       padding: 20px;
-      background-color: #0A5DC2;
+      background-color: #abdbe3;
       border-radius: 10px;
       text-align: center;
     }
@@ -211,7 +211,7 @@ li {
     .blocg2 {
       flex: 1 1 45%; /* largeur flexible à 45%, laisse 10% pour l'espace */
       padding: 20px;
-      background-color: #f0f0f0;
+      background-color: #abdbe3;
       border-radius: 10px;
       text-align: center;
     }
@@ -219,7 +219,7 @@ li {
  .blocd2 {
       flex: 1 1 45%; /* largeur flexible à 45%, laisse 10% pour l'espace */
       padding: 20px;
-      background-color: #0A5DC2;
+      background-color: #f0f0f0;
       border-radius: 10px;
       text-align: center;
     }
@@ -250,7 +250,7 @@ li {
  .blocd3 {
       flex: 1 1 45%; /* largeur flexible à 45%, laisse 10% pour l'espace */
       padding: 20px;
-      background-color: #0A5DC2;
+      background-color: #abdbe3;
       border-radius: 10px;
       text-align: center;
     }
@@ -273,7 +273,7 @@ li {
     .blocg4 {
       flex: 1 1 45%; /* largeur flexible à 45%, laisse 10% pour l'espace */
       padding: 20px;
-      background-color: #f0f0f0;
+      background-color: #abdbe3;
       border-radius: 10px;
       text-align: center;
     }
@@ -281,7 +281,7 @@ li {
  .blocd4 {
       flex: 1 1 45%; /* largeur flexible à 45%, laisse 10% pour l'espace */
       padding: 20px;
-      background-color: #0A5DC2;
+      background-color: #f0f0f0;
       border-radius: 10px;
       text-align: center;
     }
