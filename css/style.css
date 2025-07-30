@@ -64,6 +64,31 @@ li {
   }
 }
 
+.container0 {
+  height: 15rem;
+  display: flex;
+  justify-content: center; /* centre horizontalement */
+  align-items: center;     /* centre verticalement */
+  /* background-color: #f0f0f0; optionnel : fond sympa */
+}
+
+/* La boîte carrée avec texte centré */
+.box0 {
+  margin-top: 2rem;
+  width: 100px;
+  height: 25px;
+  background-color: #f0f0f0;
+  border-radius: 25px; /* bords arrondis */
+  color: white;
+  display: flex;
+  justify-content: center; /* centre horizontalement le texte */
+  align-items: center;     /* centre verticalement le texte */
+  font-size: 1.2em;
+  text-align: center;
+  padding: 10px;
+  /* box-shadow: 0 5px 10px rgba(0,0,0,0.2); */
+}
+
 
 .menu-toggle {
   font-size: 1.8rem;
@@ -125,7 +150,7 @@ li {
 }
 
 .image-molesonnuit {
-  width: 400px;
+  width: 500px;
   height: auto;
   margin-top: 20px;
 }
