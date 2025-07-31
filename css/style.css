@@ -39,6 +39,7 @@ ul {
   list-style-type: disc;
   padding-left: 20px;
   max-width: 700px;
+  text-align: left;
 }
 
 li {
@@ -72,11 +73,11 @@ li {
   /* background-color: #f0f0f0; optionnel : fond sympa */
 }
 
-/* La boîte carrée avec texte centré */
-.box0 {
+.box01 {
   margin-top: 2rem;
-  width: 100px;
+  flex: 1 1 30%; /* largeur flexible à 30%, laisse 10% pour l'espace */
   height: 25px;
+  padding: 20px;
   background-color: #f0f0f0;
   border-radius: 25px; /* bords arrondis */
   color: white;
@@ -87,7 +88,39 @@ li {
   text-align: center;
   padding: 10px;
   /* box-shadow: 0 5px 10px rgba(0,0,0,0.2); */
-}
+}   
+ .box02 {
+  margin-top: 2rem;
+  flex: 1 1 30%; /* largeur flexible à 30%, laisse 10% pour l'espace */
+  height: 25px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 25px; /* bords arrondis */
+  color: white;
+  display: flex;
+  justify-content: center; /* centre horizontalement le texte */
+  align-items: center;     /* centre verticalement le texte */
+  font-size: 1.2em;
+  text-align: center;
+  padding: 10px;
+  /* box-shadow: 0 5px 10px rgba(0,0,0,0.2); */
+}  
+.box03 {
+  margin-top: 2rem;
+  flex: 1 1 30%; /* largeur flexible à 30%, laisse 10% pour l'espace */
+  height: 25px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 25px; /* bords arrondis */
+  color: white;
+  display: flex;
+  justify-content: center; /* centre horizontalement le texte */
+  align-items: center;     /* centre verticalement le texte */
+  font-size: 1.2em;
+  text-align: center;
+  padding: 10px;
+  /* box-shadow: 0 5px 10px rgba(0,0,0,0.2); */
+}  
 
 
 .menu-toggle {
@@ -150,7 +183,7 @@ li {
 }
 
 .image-molesonnuit {
-  width: 500px;
+  width: 400px;
   height: auto;
   margin-top: 20px;
 }
