@@ -76,34 +76,34 @@ li {
 
 .box01 {
   margin-top: 2rem;
-  flex: 1 1 30%; /* largeur flexible à 30%, laisse 10% pour l'espace */
+  flex: 1 1 45%; /* largeur flexible à 45%, laisse 10% pour l'espace */
   height: 25px;
-  padding: 20px;
+  padding: 5px;
   background-color: #FFFFFF;
-  border-radius: 25px; /* bords arrondis */
+  border-radius: 55px; /* bords arrondis */
   color: white;
   display: flex;
   justify-content: right; /* centre horizontalement le texte */
   align-items: center;     /* centre verticalement le texte */
   font-size: 1.2em;
-  text-align: center;
-  padding: 10px;
+  text-align: right;
+  padding: 5px;
   /* box-shadow: 0 5px 10px rgba(0,0,0,0.2); */
 }   
  .box02 {
   margin-top: 2rem;
-  flex: 1 1 30%; /* largeur flexible à 30%, laisse 10% pour l'espace */
+  flex: 1 1 45%; /* largeur flexible à 45%, laisse 10% pour l'espace */
   height: 25px;
-  padding: 20px;
+  padding: 5px;
   background-color: #FFFFFF;
-  border-radius: 25px; /* bords arrondis */
+  border-radius: 5px; /* bords arrondis */
   color: white;
   display: flex;
   justify-content: left; /* centre horizontalement le texte */
   align-items: center;     /* centre verticalement le texte */
   font-size: 1.2em;
-  text-align: center;
-  padding: 10px;
+  text-align: left;
+  padding: 5px;
   /* box-shadow: 0 5px 10px rgba(0,0,0,0.2); */
 }  
 
