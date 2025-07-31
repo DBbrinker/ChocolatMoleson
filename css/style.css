@@ -243,9 +243,9 @@ li {
 
     .blocg1 {
       flex: 1 1 45%;  /* largeur flexible à 45%, laisse 10% pour l'espace */
-      padding: 20px;
+      /* padding: 20px; */
       background-color: #f0f0f0;
-      border-radius: 10px;
+      /* border-radius: 10px; */
       text-align: center;
       overflow: hidden;   /* Cache ce qui dépasse */
     }
