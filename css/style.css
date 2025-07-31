@@ -66,7 +66,7 @@ li {
 }
 
 .container0 {
-  height: 15rem;
+  height: 5rem;
   display: flex;
   /* justify-content: center; /* centre horizontalement */
  /*  align-items: center;     /* centre verticalement */
@@ -75,26 +75,25 @@ li {
 }
 
 .box01 {
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   flex: 1 1 45%; /* largeur flexible à 45%, laisse 10% pour l'espace */
-  height: 25px;
+  height: 5rem;
   padding: 5px;
   background-color: #FFFFFF;
-  border-radius: 55px; /* bords arrondis */
+  border-radius: 5px; /* bords arrondis */
   color: white;
   display: flex;
   justify-content: right; /* centre horizontalement le texte */
   align-items: center;     /* centre verticalement le texte */
   font-size: 1.2em;
   text-align: right;
-  padding: 5px;
   /* box-shadow: 0 5px 10px rgba(0,0,0,0.2); */
 }   
  .box02 {
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   flex: 1 1 45%; /* largeur flexible à 45%, laisse 10% pour l'espace */
-  height: 25px;
-  padding: 5px;
+  height: 5rem;
+  padding: 1rem;
   background-color: #FFFFFF;
   border-radius: 5px; /* bords arrondis */
   color: white;
@@ -103,12 +102,11 @@ li {
   align-items: center;     /* centre verticalement le texte */
   font-size: 1.2em;
   text-align: left;
-  padding: 5px;
   /* box-shadow: 0 5px 10px rgba(0,0,0,0.2); */
 }  
 
 .container1 {
-  height: 15rem;
+  height: 5rem;
   display: flex;
   justify-content: center; /* centre horizontalement */
   align-items: center;     /* centre verticalement */
@@ -117,19 +115,17 @@ li {
 }
 
 .box11 {
-  margin-top: 2rem;
-  height: 25px;
-  padding: 20px;
+  margin-top: 1rem;
+  height: 3rem;
+  padding: 1rem;
   background-color: #FFFFFF;
-  border-radius: 25px; /* bords arrondis */
+  border-radius: 1rem; /* bords arrondis */
   color: white;
   display: flex;
   justify-content: center; /* centre horizontalement le texte */
   align-items: center;     /* centre verticalement le texte */
   font-size: 1.2em;
   text-align: center;
-  padding: 10px;
- 
 }   
 
 
@@ -203,6 +199,7 @@ li {
   padding-left: 1.5rem;
   margin: 0.5rem;
   text-align: left;
+  width: 100%;
 }
 
 .line-left::before {
@@ -234,7 +231,7 @@ li {
   width: 12px;
   background-color: #0A5DC2;
   border-radius: 6px;
-  z-index: -1; /* optionnel */
+  z-index: -1; /* optionnel, pour envoyer la ligne derrière le texte */
 }
 
 .sectionbloc1 {
