@@ -70,7 +70,7 @@ li {
   display: flex;
   justify-content: center; /* centre horizontalement */
   align-items: center;     /* centre verticalement */
-  background-color: #f0f0f0;
+  background-color: #FFFFFF;
   flex-wrap: wrap; /* permet le retour à la ligne si nécessaire */
 }
 
@@ -79,7 +79,7 @@ li {
   flex: 1 1 30%; /* largeur flexible à 30%, laisse 10% pour l'espace */
   height: 25px;
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: #FFFFFF;
   border-radius: 25px; /* bords arrondis */
   color: white;
   display: flex;
@@ -95,7 +95,7 @@ li {
   flex: 1 1 30%; /* largeur flexible à 30%, laisse 10% pour l'espace */
   height: 25px;
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: #FFFFFF;
   border-radius: 25px; /* bords arrondis */
   color: white;
   display: flex;
@@ -106,6 +106,32 @@ li {
   padding: 10px;
   /* box-shadow: 0 5px 10px rgba(0,0,0,0.2); */
 }  
+
+.container1 {
+  height: 15rem;
+  display: flex;
+  justify-content: center; /* centre horizontalement */
+  align-items: center;     /* centre verticalement */
+  background-color: #FFFFFF;
+  flex-wrap: wrap; /* permet le retour à la ligne si nécessaire */
+}
+
+.box11 {
+  margin-top: 2rem;
+  height: 25px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 25px; /* bords arrondis */
+  color: white;
+  display: flex;
+  justify-content: center; /* centre horizontalement le texte */
+  align-items: center;     /* centre verticalement le texte */
+  font-size: 1.2em;
+  text-align: center;
+  padding: 10px;
+ 
+}   
+
 
 .menu-toggle {
   font-size: 1.8rem;
