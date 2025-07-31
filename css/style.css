@@ -83,7 +83,7 @@ li {
   border-radius: 25px; /* bords arrondis */
   color: white;
   display: flex;
-  justify-content: center; /* centre horizontalement le texte */
+  justify-content: right; /* centre horizontalement le texte */
   align-items: center;     /* centre verticalement le texte */
   font-size: 1.2em;
   text-align: center;
@@ -99,7 +99,7 @@ li {
   border-radius: 25px; /* bords arrondis */
   color: white;
   display: flex;
-  justify-content: center; /* centre horizontalement le texte */
+  justify-content: left; /* centre horizontalement le texte */
   align-items: center;     /* centre verticalement le texte */
   font-size: 1.2em;
   text-align: center;
