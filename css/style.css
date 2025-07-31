@@ -68,8 +68,8 @@ li {
 .container0 {
   height: 15rem;
   display: flex;
-  justify-content: center; /* centre horizontalement */
-  align-items: center;     /* centre verticalement */
+  /* justify-content: center; /* centre horizontalement */
+ /*  align-items: center;     /* centre verticalement */
   background-color: #FFFFFF;
   flex-wrap: wrap; /* permet le retour à la ligne si nécessaire */
 }
