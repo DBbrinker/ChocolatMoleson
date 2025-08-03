@@ -111,6 +111,15 @@ li {
   /* box-shadow: 0 5px 10px rgba(0,0,0,0.2); */
 }  
 
+.container01 {
+  height: 5rem;
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: #FFFFFF;
+  flex-wrap: wrap; /* permet le retour à la ligne si nécessaire */
+}
+
 .container1 {
   height: 5rem;
   display: flex;
